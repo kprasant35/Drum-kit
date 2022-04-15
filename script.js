@@ -40,16 +40,7 @@ function playSound(butt){
             tom4.play();
             return true;
             break;
-        case "u":
-            var rt=new Audio("sounds/fuck you.mp3");       
-            rt.play();
-            var temp=document.querySelector("h1");
-            temp.innerHTML="fuck you";
-            setTimeout(function(){
-                temp.innerHTML="lwde ka project";
-            },240);
-            return false;
-            break;
+       
         default:
             return false;
     }
